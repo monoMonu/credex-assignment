@@ -74,9 +74,9 @@ export default function ContactForm() {
          <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             {/* Left side */}
             <div className="space-y-6 text-center md:text-left px-4">
-               <h2 className="text-4xl font-bold tracking-tight">Let’s Work Together</h2>
+               <h2 className="text-4xl font-bold tracking-tight">Let&apos;s Work Together</h2>
                <p className="text-muted-foreground text-lg">
-                  Tell us about your unused software licenses and we’ll help you turn them into value.
+                  Tell us about your unused software licenses and we&apos;ll help you turn them into value.
                </p>
                <Image
                   src="/contact.svg"
@@ -176,7 +176,7 @@ export default function ContactForm() {
          </div>
 
          {submitted && (
-            <p className="text-center mt-6 text-green-600 font-medium">Thank you! We'll be in touch.</p>
+            <p className="text-center mt-6 text-green-600 font-medium">Thank you! We&apos;ll be in touch.</p>
          )}
       </section>
    )

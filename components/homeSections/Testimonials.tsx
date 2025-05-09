@@ -88,7 +88,7 @@ const Testimonials = () => {
                               ))}
                            </div>
                            <blockquote className="text-base text-foreground">
-                              "{testimonial.quote}"
+                              &quot;{testimonial.quote}&quot;
                            </blockquote>
                         </div>
                         <div className="flex items-center justify-between gap-4">
